@@ -1,0 +1,122 @@
+.product-details-page {
+    padding-top: 20px;
+}
+
+.back-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.product-gallery .main-img {
+    width: 100%;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.details-category {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.details-name {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.details-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-maroon);
+    margin-bottom: 25px;
+}
+
+.stock-indicator {
+    margin-bottom: 30px;
+}
+
+.in-stock-label {
+    color: var(--success);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.out-of-stock-label {
+    color: var(--error);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.details-description {
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.details-description h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.details-description p {
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+.action-section {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: var(--radius);
+    padding: 5px;
+}
+
+.quantity-selector button {
+    background: none;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-selector span {
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.add-btn {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+    .details-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}

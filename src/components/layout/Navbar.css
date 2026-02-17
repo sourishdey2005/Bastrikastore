@@ -1,0 +1,147 @@
+.navbar {
+    background-color: var(--white);
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-maroon);
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    font-weight: 600;
+    color: var(--text-charcoal);
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    color: var(--primary-maroon);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-icon-btn {
+    position: relative;
+    color: var(--text-charcoal);
+    display: flex;
+    align-items: center;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: var(--primary-maroon);
+    color: white;
+    font-size: 0.7rem;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-left: 1px solid #eee;
+    padding-left: 15px;
+}
+
+.user-email {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.logout-btn {
+    background: none;
+    color: var(--text-muted);
+}
+
+.logout-btn:hover {
+    color: var(--error);
+}
+
+.menu-toggle {
+    background: none;
+    color: var(--text-charcoal);
+}
+
+/* Responsive Utilities */
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu a {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.mobile-menu-divider {
+    height: 1px;
+    background-color: #eee;
+    margin: 10px 0;
+}
+
+.mobile-user {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.mobile-logout {
+    text-align: left;
+    background: none;
+    color: var(--error);
+    font-weight: 600;
+    padding: 0;
+}
