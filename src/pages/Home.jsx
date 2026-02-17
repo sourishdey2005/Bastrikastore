@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { getProducts } from '../services/product.service';
@@ -426,3 +426,4 @@ const Home = () => {
 };
 
 export default Home;
+
