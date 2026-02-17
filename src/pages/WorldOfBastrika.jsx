@@ -44,7 +44,7 @@ const WorldOfBastrika = () => {
                         className="space-y-10 group"
                     >
                         <div className="aspect-[4/3] bg-ivory rounded-sm overflow-hidden shadow-2xl relative">
-                            <img src="https://imgs.search.brave.com/JD7EgzRqXR4FCvd8wb2gzmpQ3LGEwqwrc6oy2KTw2as/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZ3MuY29tL29y/aWdpbmFscy80NC8y/MS81Ni80NDIxNTY4/YzQ2NDM4ZjdhNjA0/NWE1MGM3MzQ1MjQ4/Yi5qcGc" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[3s]" alt="Bengali Mansion" />
+                            <img src="https://imgs.search.brave.com/i2WzyYsBkcrBqipmRpzfJyQMfPcJaQassNJx5v0kcL4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/dGhlYnVzaW5lc3Ni/bG9nLmluL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDI0LzEwL1Rv/cC0xMC1DdWx0dXJh/bC1CZW5nYWxpLVRy/YWRpdGlvbmFsLURy/ZXNzLmpwZw" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[3s]" alt="Bengali Mansion" />
                             <div className="absolute inset-0 bg-primary/5 group-hover:bg-primary/0 transition-all duration-1000"></div>
                         </div>
                         <h2 className="text-4xl serif-font text-primary leading-tight group-hover:italic transition-all duration-700">Calcutta: Our Muse</h2>
