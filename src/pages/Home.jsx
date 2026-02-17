@@ -140,15 +140,7 @@ const Home = () => {
                         className="aspect-video bg-ivory relative group cursor-pointer overflow-hidden rounded-sm shadow-[0_30px_60px_-15px_rgba(108,30,30,0.1)]"
                     >
                         <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=1976" className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-[2s] ease-out" />
-                        <div className="absolute inset-0 flex items-center justify-center">
-                            <motion.div
-                                whileHover={{ scale: 1.1 }}
-                                transition={{ type: "spring", stiffness: 300 }}
-                                className="w-24 h-24 rounded-full glass border border-white/50 flex items-center justify-center text-primary shadow-2xl"
-                            >
-                                <span className="material-symbols-outlined text-4xl ml-1">play_arrow</span>
-                            </motion.div>
-                        </div>
+                        {/* Video Layer removed play button */}
                     </motion.div>
 
                     <motion.p
@@ -211,7 +203,7 @@ const Home = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                         {[
-                            { step: "01", title: "Hand Spun", desc: "The finest silk threads, spun by hand to ensure a tactile soul in every garment.", img: "https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=1920&auto=format&fit=crop" },
+                            { step: "01", title: "Hand Spun", desc: "The finest silk threads, spun by hand to ensure a tactile soul in every garment.", img: "https://www.freepik.com/free-photo/line-reels-warm-colors-yarn_4886858.htm#fromView=search&page=1&position=20&uuid=5a74db4a-0c37-42b1-90b3-daa5cdbe0091&query=spun++images" },
                             { step: "02", title: "Deep Dyed", desc: "Using organic minerals to achieve the signature Bastrika Maroon—a color that lives and breathes.", img: "https://as1.ftcdn.net/v2/jpg/09/97/38/62/1000_F_997386299_0dbc5XhibnmUt2MHfa6sgjbCK3gszpPM.jpg" },
                             { step: "03", title: "The Loom", desc: "Weeks of rhythmic precision on traditional handlooms, where heritage meets the modern eye.", img: "https://images.unsplash.com/photo-1564656622440-e6206eb5ee63?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
                         ].map((item, idx) => (
@@ -303,7 +295,7 @@ const Home = () => {
                     />
 
                     <p className="max-w-2xl mx-auto text-white/70 text-lg serif-font italic leading-relaxed">
-                        Tucked away in the quiet lanes of North Calcutta, our atelier serves as a laboratory of heritage, where ancient wisdom meets contemporary luxury.
+                        "For culture to be relevant, it needs to be dynamic. At Bastrika, we don't just preserve the past; we breathe new life into heritage weaves."
                     </p>
 
                     <button className="glass-dark px-12 py-5 text-white text-[11px] uppercase tracking-[0.5em] font-bold hover:bg-white hover:text-black transition-all">
@@ -427,7 +419,7 @@ const Home = () => {
                         transition={{ duration: 1.5, delay: 0.5 }}
                         className="text-2xl md:text-3xl lg:text-4xl serif-font font-light italic leading-relaxed"
                     >
-                        "Crowded narrow lanes with balconies jutting out of beautiful old mansions and homes, jostling for space in North Calcutta. So rich in its nonchalance, between the clamour of grandeur and decay. It's almost spiritual, the neglect of luxury and the casual existence of glamour. It makes Calcutta unforgettable."
+                        "For culture to be relevant, it needs to be dynamic. At Bastrika, we don't just preserve the past; we breathe new life into heritage weaves."
                     </motion.p>
                     <motion.div
                         initial={{ width: 0 }}
