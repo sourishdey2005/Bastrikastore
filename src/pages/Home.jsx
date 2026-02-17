@@ -45,9 +45,13 @@ const Home = () => {
         const fetchFeatured = async () => {
             try {
                 const data = await getProducts(null, 'created_at', 'desc');
-                setFeaturedProducts(data.slice(0, 4));
+                console.log('Featured Products Fetched:', data);
+                if (data) {
+                    setFeaturedProducts(data.slice(0, 4));
+                }
             } catch (err) {
-                console.error(err);
+                console.error('Error fetching featured products:', err);
+                // Optional: set some UI state to show error
             } finally {
                 setLoading(false);
             }

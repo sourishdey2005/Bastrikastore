@@ -53,7 +53,7 @@ const ProductCard = ({ product }) => {
                     <div className="flex flex-col items-center gap-3">
                         <p className="text-primary/40 text-[9px] uppercase tracking-[0.5em] font-bold">{product.category}</p>
                         <div className="w-8 h-[1px] bg-accent-gold/20 group-hover:w-20 group-hover:bg-accent-gold transition-all duration-700"></div>
-                        <p className="font-bold text-primary tracking-[0.2em] text-sm">₹{product.price.toLocaleString('en-IN')}</p>
+                        <p className="font-bold text-primary tracking-[0.2em] text-sm">₹{(product.price || 0).toLocaleString('en-IN')}</p>
                     </div>
                 </div>
             </Link>
