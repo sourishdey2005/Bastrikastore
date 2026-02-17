@@ -98,19 +98,6 @@ const Home = () => {
                     </motion.div>
                 </AnimatePresence>
 
-                {/* Indicators */}
-                <div className="absolute border-t border-white/10 bottom-0 left-0 w-full h-24 flex items-center justify-center gap-12 z-10 glass-dark">
-                    {slides.map((s, idx) => (
-                        <button
-                            key={idx}
-                            onClick={() => setCurrentSlide(idx)}
-                            className="group flex flex-col items-center gap-2"
-                        >
-                            <span className={`text-[9px] font-bold uppercase tracking-widest transition-colors duration-500 ${currentSlide === idx ? 'text-white' : 'text-white/30'}`}>0{idx + 1}</span>
-                            <div className={`h-[1px] transition-all duration-700 ease-in-out ${currentSlide === idx ? 'w-24 bg-accent-gold' : 'w-12 bg-white/20 group-hover:bg-white/40'}`} />
-                        </button>
-                    ))}
-                </div>
             </section>
 
             {/* 25 Years Section */}
@@ -128,7 +115,7 @@ const Home = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.2 }}
                     >
-                        <h3 className="text-4xl serif-font uppercase tracking-[0.3em] text-primary mb-2">25 Years Bastrika</h3>
+                        <h3 className="text-4xl serif-font uppercase tracking-[0.3em] text-primary mb-2">Bastrika</h3>
                         <p className="text-[10px] text-primary/40 uppercase tracking-[0.5em] font-bold">The Golden Jubilee of Craft</p>
                     </motion.div>
 
