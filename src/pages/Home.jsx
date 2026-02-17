@@ -150,7 +150,7 @@ const Home = () => {
                         transition={{ duration: 1, delay: 0.5 }}
                         className="text-3xl italic serif-font text-primary/80 pt-10 leading-relaxed px-10"
                     >
-                        â€œFor culture to be relevant, it needs to be dynamic. At Bastrika, we don't just preserve the past; we breathe new life into heritage weaves.â€
+                        For culture to be relevant, it needs to be dynamic. At Bastrika, we don't just preserve the past; we breathe new life into heritage
                     </motion.p>
                 </div>
             </motion.section>
@@ -203,7 +203,7 @@ const Home = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                         {[
-                            { step: "01", title: "Hand Spun", desc: "The finest silk threads, spun by hand to ensure a tactile soul in every garment.", img: "https://www.freepik.com/free-photo/line-reels-warm-colors-yarn_4886858.htm#fromView=search&page=1&position=20&uuid=5a74db4a-0c37-42b1-90b3-daa5cdbe0091&query=spun++images" },
+                            { step: "01", title: "Hand Spun", desc: "The finest silk threads, spun by hand to ensure a tactile soul in every garment.", img: "https://imgs.search.brave.com/W1DtDcHTcZh2GoRbk1GpvvaYTHyNvj0pLGNZQyG_kQs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvNjYz/NDczOS9wZXhlbHMt/cGhvdG8tNjYzNDcz/OS5qcGVnP2F1dG89/Y29tcHJlc3MmY3M9/dGlueXNyZ2ImZHBy/PTEmdz01MDA" },
                             { step: "02", title: "Deep Dyed", desc: "Using organic minerals to achieve the signature Bastrika Maroon—a color that lives and breathes.", img: "https://as1.ftcdn.net/v2/jpg/09/97/38/62/1000_F_997386299_0dbc5XhibnmUt2MHfa6sgjbCK3gszpPM.jpg" },
                             { step: "03", title: "The Loom", desc: "Weeks of rhythmic precision on traditional handlooms, where heritage meets the modern eye.", img: "https://images.unsplash.com/photo-1564656622440-e6206eb5ee63?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
                         ].map((item, idx) => (
